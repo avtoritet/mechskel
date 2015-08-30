@@ -11,7 +11,7 @@ br = mechanize.Browser()
 cj = cookielib.LWPCookieJar()
 br.set_cookiejar(cj)
 
-# User-Agent -> default one honors robots.txt
+# User-Agent -> default User-Agent is Python's and not well-liked by servers
 USER_AGENT = 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1'
 
 # Browser options
